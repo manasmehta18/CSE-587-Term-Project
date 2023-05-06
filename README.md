@@ -132,3 +132,9 @@ Then, you can evaluate this model by using the following command:
 ```bash
 python eval_graph.py --eval_batch 16 --test_data_path ./data/RECCON_BIO/dailydialog_test.json --test_context_path ./data/RECCON_BIO/dailydialog_test_shared_dialog.json --test_data_path_2 ./data/RECCON_BIO/iemocap_test.json --test_context_path_2 ./data/RECCON_BIO/iemocap_test_shared_dialog.json --model_name McIN --bi_direction --cuda 0
 ```
+
+## Baseline Replication Results - Causal Span Extraction (SpanBERT on RECCON)
+
+We also include the replication results for SpanBERT on the RECCON dataset (Code: https://github.com/declare-lab/RECCON)
+
+The results are here [a relative link](baseline.md)
